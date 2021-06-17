@@ -1,0 +1,284 @@
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana.eot');
+	src: url('../font/fontie-package/Verdana.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana.woff') format('woff'),
+		url('../font/fontie-package/Verdana.svg#Verdana') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {  font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold.eot');
+	src: url('../font/fontie-package/Verdana Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold.svg#Verdana Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Italic.eot');
+	src: url('../font/fontie-package/Verdana Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Italic.svg#Verdana Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold Italic.eot');
+	src: url('../font/fontie-package/Verdana Bold Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold Italic.svg#Verdana Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;box-sizing: border-box;}
+body {	line-height: 1;font-family:'Verdana';}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* header start*/
+header{display:inline-block;width:100%;}
+.bannerimage{display:inline-block;width:100%;position:relative;}
+.bannerimage img{width:100%;}
+.bannertext{position:absolute ;   top: 0;    left: 0;    right: 0;}
+.container{width:1500px;margin:0 auto;}
+.menu-wcr{display:inline-block;width:100%;position:relative;padding:0;}
+
+.menu-list{float:left;width:78%;margin:35px 0 45px;}
+.menu-list nav{display:inline-block;width:100%;}
+.menu-list nav ul{display:inline-block;width:100%;}
+.menu-list nav ul li{display:inline-block;text-align:center;position: relative;width:190px;}
+.menu-list nav ul li a{    display: block;    padding: 50px 10px;text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;    position: relative;
+    z-index: 9;    text-align: center;    margin-right: 31px;}.menu-list nav ul li a i{font-size:26px;}	
+	
+	
+	.menu-list nav ul li a:after {    content: "";    position: absolute;    left: 15px;    right: 0;    top: 0;    bottom: 0;    background: #9f5936;    z-index: -1;    transform: rotate(45deg);    height: 130px;    width: 130px;	display:none;}
+	.menu-list nav ul li a:hover:after{display:block;}
+	.menu-list nav ul li .pagelist li a:hover:after {display: none;}
+	
+.menu-list nav ul li .pagelist{display:none;background:#9f5936; position: absolute;    top: 155px;    left: 31px;     width: 200px;    z-index: 1;}
+.menu-list nav ul li .pagelist li a {    padding: 20px 10px;text-align: left;}
+.menu-list nav ul li:hover .pagelist{display:block;}
+.menu-list nav ul li .pagelist li a:hover{color:#000;}
+.pagelist li a{display: block;    text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;}
+
+.wcr{float:right;width:20%;padding:70px 0;}
+.wcr ul{display:inline-block;width:100%;}
+.wcr ul li{display:inline-block;text-align:center;}
+.wcr ul li a{text-decoration:none;display:inline-block;margin: 0 16px;}
+.wcr ul li a:hover i{color:#9f5936;}
+.wcr ul li a:hover span{color:#9f5936;}
+.wcr ul li a i{color:#fff;display:block;font-size:34px;line-height:38px;}
+.wcr ul li a span{color:#fff;display:block;font-size:20px;line-height:24px;font-weight:400;}
+
+/* header end*/
+
+/*owner word start*/
+.ownerword{display:inline-block;width:100%;margin-top:60px;}
+.owner-area{display:inline-block;width:100%;}
+.ownerimageside{float:left;width:47%;}
+.ownerimageside img{display:inline-block;width:100%;}
+.ownerwordright{float:right;text-align:center;width:50%;    margin-top: 80px;}
+.heading{display:block;text-align:center;}
+.heading h2{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.ownerwordsdetails{display:inline-block;width:100%;text-align:center;margin:10px 0 0 0;padding: 0 35px;}
+.ownerwordsdetails p{color:#5a5858;font-size:18px;line-height:30px;font-weight:400;    margin: 30px 0 60px;}
+.ownersign{display:inline-block;}
+.ownersign img{width:100%;}
+
+/*owner word end*/
+
+/* about us start*/
+.aboutus{background-image:url(../images/aboutuswordbanner.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:424px;margin:60px 0 0 0;display: inline-block;    width: 100%;}
+.aboutarea{display:inline-block;width:100%;margin:40px 0 ;    padding: 0 60px}
+.aboutusheading h2{color:#fff;}
+.aboutdetails{display:inline-block;width:100%;margin:30px 0 0 0;}
+.aboutdetails p.firstp{display:inline-block;width:100%;color:#fff;text-align:center;font-size:18px;line-height:30px;font-weight:400;margin-bottom:26px;padding: 0px 50px;}
+/* about us  end*/
+
+/*achievments start*/
+.acheivements{display:inline-block;width:100%;margin:50px 0 35px;}
+.acheivementsarea{display:inline-block;width:100%;    padding-left: 30px;}
+.acheivementsnumber{display:inline-block;width:100%;}
+.firstacheivements{float:left;width:23.5%;text-align:center;    margin: 0 10px;    padding: 0 20px;}
+.acheivementsnumber span{font-style:italic;color:#9f5936;font-size:48px;line-height:54px;font-weight:400;}
+.acheivementsdetails span{color:#000;font-size:24px;line-height:30px;font-weight:400;margin:15px 0;display:block;}
+.acheivementsdetails p{color:#595858;font-size:16px;line-height:24px;font-weight:400;margin:15px 0;display:block;}
+/*achievments end*/
+
+/*footer star*/
+footer{display:inline-block;width:100%;background:#170f0b;}
+.footerarea{display:inline-block;width:100%;margin:45px 0 15px;padding:40px 0;}
+.logo-copyright{float:left;width:17%;margin-right:20px;}
+.footerlogo{float:left;width:60%;}
+.footerlogo img{width:100%;}
+.copyright{float:left;width:100%;    margin-top: 40px;}
+.copyright small{color:#fff;font-size:14px;line-height:22px;font-weight:400;}
+.soacialmedia{float:left;width:60%;text-align:center;margin:65px 0;}
+.soacialmedia ul{display:inline-block;width:100%;}
+.soacialmedia ul li{display:inline-block;width:10%;margin-right:30px;}
+.soacialmedia ul li a{text-decoration:none;display: inline-block;}
+.soacialmedia ul li i{text-align:center;color:#fff;font-size:48px;line-height:54px;background:#9f5936;padding: 4px 20px;box-shadow:4px 10px 0 rgba(118, 67, 41, .7);}
+.soacialmedia ul li.twitter i{padding: 4px 13px;}
+.soacialmedia ul li.insta i{padding: 4px 13px;}
+.copyrighttwo{display:none;}
+.soacialmedia ul li.tumblr i{padding: 4px 20px;margin:0;}
+.soacialmedia a:hover i{box-shadow:none;color:#000;}
+.getintouch{float:right;width:20%;text-align:right;margin: 60px 0;}
+.getintouch strong{color:#fff;font-size:30px;line-height:36px;font-weight:400;margin-bottom:6px;display:block;}
+.getintouch span{color:#fff;font-size:14px;line-height:26px;font-weight:400;}
+/*footer end*/
+
+
+@media screen and (max-width:1520px){
+	.container {    width: 100%; padding:0 30px;}
+	.menu-list{width:78%;    margin: 28px 0 28px;}
+	.menu-list nav ul li a{margin-right: 15px; padding: 38px 5px;font-size: 18px;    line-height: 22px;}
+	.menu-list nav ul li a:after{width:100px;height:100px;}
+	.menu-list nav ul li{width: 135px;}
+		.menu-list nav ul li .pagelist{top: 120px;    width: 150px;}
+	.wcr ul li a i{    font-size: 20px;    line-height: 26px;}
+	.wcr ul li a span{    font-size: 16px;    line-height: 20px;}
+	.wcr ul li a{margin: 0 14px;}
+	.wcr{padding:53px 0;    width: 22%;}
+	.menu-list nav ul li a i {    font-size: 18px;}
+	
+	.ownerwordsdetails p{    margin: 30px 0 45px;    font-size: 16px;    line-height: 22px;}
+	
+	.firstacheivements{width: 22.5%;padding:0;}
+	.acheivementsnumber span{font-size: 40px;    line-height: 45px;}
+	.acheivementsdetails span {    color: #000;    font-size: 18px;    line-height: 22px;}
+	.acheivementsdetails p {font-size: 14px;    line-height: 20px;}
+	
+}
+
+@media screen and (max-width:1199px){
+	.container{width:100%;padding:0 25px;}
+	.menu-list{margin: 30px 0 25px;}
+	.menu-list nav ul li{width: 110px;}
+	.menu-list nav ul li a{font-size: 14px;       margin-right: 15px; line-height: 20px;padding: 26px 8px;}
+	.menu-list nav ul li .pagelist{top: 86px;    width: 100px;}
+	.menu-list nav ul li a i{font-size:13px;}
+	.menu-list nav ul li a:after{    height: 72px;    width: 72px;}
+	.wcr{width:22%;padding: 45px 0;}
+	.bannercontact{padding-left:0;}	
+	.wcr ul li a i{   margin: 0 6px; font-size: 20px;    line-height: 26px;}
+	.wcr ul li a {margin: 0 6px; }
+	.wcr ul li a span{    font-size: 14px;    line-height: 18px;}
+	
+	.heading h2 {font-size: 35px;    line-height: 40px;}
+	.ownerwordsdetails{padding: 0 15px;}
+	.ownerwordright{margin-top: 32px;}
+	.ownerwordsdetails p {font-size: 14px;    line-height: 18px;    margin: 30px 0 35px;}
+	.ownersign {    display: inline-block;    width: 60%;}
+	.ownersign img{width: 100%;}
+	
+	.acheivementsarea{padding-left:0;}
+	.firstacheivements{padding:0;    width: 21.5%;    margin: 0 15px;}
+	.acheivementsnumber span {    font-size: 40px;    line-height: 46px;}
+	.acheivementsdetails span {    font-size: 16px;    line-height: 22px;}
+	.acheivementsdetails p { font-size: 14px;    line-height: 20px;margin: 10px 0;}
+	
+	
+	
+	.soacialmedia ul li i{    font-size: 36px;    line-height: 46px;}
+}
+
+@media screen and (max-width:991px){
+	.bannerimage img {    height: 111px;}
+	.menu-list nav ul li {    width: 85px;}
+	.menu-list {    margin: 20px 0 0 0;width: 79%;}
+	.menu-list nav ul li a {    margin-right: -16px;padding: 26px 0px; font-size: 13px; line-height: 18px;}
+	.wcr ul li a i { font-size: 14px;    line-height: 20px;}
+	.wcr ul li a span {font-size: 12px;}
+	.wcr ul li a { margin:0 3px 0 0 ;}
+	.wcr {width:20%;padding: 37px 0;}
+	.menu-list nav ul li .pagelist{top: 85px;    width: 70px;}
+	.menu-list nav ul li a:after {    height: 70px;    width: 70px;}
+
+.heading h2 {font-size: 30px;    line-height: 38px;}
+	.ownerwordsdetails{padding: 0 15px;}
+	.ownerwordright{margin-top: 0;}
+	.ownerwordsdetails p {font-size: 13px;    line-height: 16px;    margin: 15px 0 20px;}
+	.ownersign {    display: inline-block;    width: 60%;}
+	.ownersign img{width: 100%;}
+	
+	.aboutus{min-height:410px;}
+	.aboutarea {padding:0;margin:30px 0;}
+	.aboutdetails p.firstp{    font-size: 15px;    line-height: 22px;	padding:0;}
+	
+	.firstacheivements {    width: 21.5%;}
+.acheivementsnumber span {    font-size: 30px;line-height: 38px;}
+.acheivementsdetails span {    font-size: 13px;line-height: 18px;}
+.acheivementsdetails p {    font-size: 12px;line-height: 18px;}
+
+.footerlogo {    width: 50%;}
+	.logo-copyright {    width: 20%;margin:0;}
+	.getintouch span {font-size: 12px;    line-height: 20px;}
+	.getintouch strong {font-size: 20px;    line-height: 28px;}
+	.copyright{margin-top: 20px;}
+	.copyright small { font-size: 12px;    line-height: 18px;}
+	.soacialmedia{width:58%;} 
+	.soacialmedia ul li i{font-size: 19px;    line-height: 26px;}
+	
+}
+
+@media screen and (max-width:767px){	
+	.wcr {padding: 5px 0;    width: 100%}
+	.wcr ul  {padding: 10px 0;    width: 100%}
+	.wcr ul li {    width: 33%;    float: left;}
+.wcr ul li a {margin: 0 ;}
+.ownerword{margin-top:25px;}
+
+.heading h2 {    font-size: 22px;line-height: 26px;}
+.heading img{width:60%;}
+.ownerimageside{width:100%;}
+.ownerwordright{width:100%;margin-top:20px;}
+.ownerwordsdetails{padding:0;}
+.ownerwordsdetails p {    font-size: 14px;line-height: 18px;}
+.ownersign{width:50%;}
+
+.aboutus{margin:30px 0 0 0;}
+
+.acheivements{margin:25px 0;}
+.firstacheivements {margin:0 0 25px 0;width: 100%;}
+.acheivementsnumber span {    font-size: 34px;line-height: 40px;}
+.acheivementsdetails span{font-size:15px;margin:7px;}
+
+.footerarea {padding:0;margin:20px 0 15px;}
+	.getintouch strong {   font-size: 13px;    line-height: 17px;}
+	.soacialmedia ul li i {box-shadow: 3px 4px 0 rgb(118 67 41 / 70%); padding: 3px 13px;font-size: 12px;    line-height: 16px;	}
+	.soacialmedia ul li.twitter i {    padding: 3px 11px;}
+.soacialmedia ul li.insta i{padding: 3px 11px;}
+.soacialmedia ul li.tumblr i{padding: 3px 12px;margin:0;}
+.soacialmedia {width: 46%;}
+.soacialmedia ul li {margin:0 0 20px 0 ;display: inline-block;    width: 100%;      text-align: center;}
+.getintouch {width: 23%;}
+.logo-copyright {width: 50%;}
+.footerlogo {width: 100%;}
+.copyright{display:none;}
+.copyrighttwo {    display: inline-block;    width: 100%;    margin-top: 10px;text-align: center;}
+.copyrighttwo small{color:#fff;font-size:13px;line-height:18px;font-weight:400;}
+.soacialmedia {    width: 50%;      margin:  0;float:right;text-align: left;}
+.getintouch {    margin: 10px 0;    width: 100%;    display: inline-block;text-align: center;}
+	
+}

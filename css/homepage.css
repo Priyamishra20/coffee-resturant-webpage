@@ -1,0 +1,536 @@
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana.eot');
+	src: url('../font/fontie-package/Verdana.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana.woff') format('woff'),
+		url('../font/fontie-package/Verdana.svg#Verdana') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {  font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold.eot');
+	src: url('../font/fontie-package/Verdana Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold.svg#Verdana Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Italic.eot');
+	src: url('../font/fontie-package/Verdana Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Italic.svg#Verdana Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold Italic.eot');
+	src: url('../font/fontie-package/Verdana Bold Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold Italic.svg#Verdana Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;box-sizing: border-box;}
+body {	line-height: 1;font-family:'Verdana';}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* header start*/
+header{display:inline-block;width:100%;}
+.bannerimage{display:inline-block;width:100%;position:relative;}
+.bannerheight{display:inline-block;width:100%;position:relative;}
+.bannerimage img{width:100%;}
+.bannertext{position:absolute ;   top: 0;    left: 0;    right: 0;}
+.container{width:1500px;margin:0 auto;}
+.menu-wcr{display:inline-block;width:100%;position:relative;padding:0;}
+.menu-wcr:after{content:"";border-bottom:#d1cfcf solid 1px;position:absolute;left:60px;right:60px;bottom:0;}
+.menu-list{float:left;width:78%;margin:35px 0 45px;}
+.menu-list nav{display:inline-block;width:100%;}
+.menu-list nav ul{display:inline-block;width:100%;}
+.menu-list nav ul li{display:inline-block;text-align:center;position: relative;width:190px;}
+.menu-list nav ul li a{    display: block;    padding: 50px 10px;text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;    position: relative;
+    z-index: 9;
+    text-align: center;
+    margin-right: 31px;}
+.menu-list nav ul li a i{font-size:26px;}	
+	
+	
+	.menu-list nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #9f5936;
+    z-index: -1;
+    transform: rotate(45deg);
+    height: 130px;
+    width: 130px;
+	display:none;}
+	.menu-list nav ul li a:hover:after{display:block;}
+	.menu-list nav ul li .pagelist li a:hover:after {display: none;}
+	
+.menu-list nav ul li .pagelist{display:none;background:#9f5936; position: absolute;    top: 155px;    left: 31px;     width: 200px;    z-index: 1;}
+.menu-list nav ul li .pagelist li a {    padding: 20px 10px;text-align: left;}
+.menu-list nav ul li:hover .pagelist{display:block;}
+.menu-list nav ul li .pagelist li a:hover{color:#000;}
+.pagelist li a{display: block;    text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;}
+
+.wcr{float:right;width:20%;padding:70px 0;}
+.wcr ul{display:inline-block;width:100%;}
+.wcr ul li{display:inline-block;text-align:center;}
+.wcr ul li a{text-decoration:none;display:inline-block;margin: 0 16px;}
+.wcr ul li a:hover i{color:#9f5936;}
+.wcr ul li a:hover span{color:#9f5936;}
+.wcr ul li a i{color:#fff;display:block;font-size:34px;line-height:38px;}
+.wcr ul li a span{color:#fff;display:block;font-size:20px;line-height:24px;font-weight:400;}
+
+.company-logo-area{display:inline-block;width:100%;margin-top:25px;}
+.bannermap{float:left;width:20%;text-align:center;}
+.bannermap .mapicon{display:block;}
+.bannermap i{color:#fff;text-decoration:none;font-size:26px;line-height:28px;border:#fff solid 2px;border-radius:50%;padding:10px 16px;}
+.bannermap:hover i{color:#9f5936;border:#9f5936 solid 2px;}
+.bannermap:hover address a{color:#9f5936;}
+.bannermap address a{color:#fff;font-size:18px;text-decoration:none;line-height:24px;font-weight:400;margin-top:5px;}
+
+
+.mySlides {float:left;width:60%;text-align:center;    position: relative;}
+img {vertical-align: middle;}
+.companylogo{float:left;width:100%;text-align:center;}
+.companylogo .logoimage{display:inline-block;width:50%;text-align:center;margin-top:10px;}
+.companylogo .logoimage a img{margin: 0;width:100%;}
+.companylogo .logoimage  img{width:100%;}
+.bannerdetails{display:inline-block;width:100%;margin:20px 0 40px 0;}
+.mainheading{display:inline-block;width:100%;}
+.bannerdetails h1{color:#fff;font-size:60px;line-height:75px;font-weight:400;padding:0 70px;margin:0 70px;}
+.bannerdetails span{color:#fff;font-size:26px;line-height:30px;font-style:italic;font-weight:400;}
+.banneranchor{display:inline-block;width:100%;text-align:center;margin-top:15px;}
+.banneranchor a{text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:30px;line-height:34px;font-weight:400;box-shadow:8px 8px 0 rgba(84, 45, 27, .5);}
+.banneranchor:hover a{color:#fff;box-shadow:none;}
+.prevnextbutton {display: inline-block;      position: absolute;    left: 22%;    top: 65%;    right: 22%;}
+
+/* Next & previous buttons */
+.prev, .next {  float:left;width:10%;}
+
+/* Position the "next button" to the right */
+.next {  float:right;width:10%;}
+
+/* Fading animation */
+.fade {  -webkit-animation-name: fade;  -webkit-animation-duration: 1.5s;  animation-name: fade;  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {  from {opacity: .4}   to {opacity: 1}
+}
+
+@keyframes fade {  from {opacity: .4}   to {opacity: 1}  }
+
+.bannercontact{float:right;width:14%;text-align:center;    padding-left: 35px;}
+.bannercontact .phoneicon{display:block;}
+.bannercontact a i{text-decoration:none;color:#fff;font-size:26px;line-height:28px;border:#fff solid 2px;border-radius:50%;padding:10px 16px;}
+.bannercontact span a{text-decoration:none;color:#fff;font-size:18px;line-height:20px;font-weight:400;margin-top:5px;display:block;}
+.bannercontact span .number a{text-decoration:none;color:#fff;font-size:18px;line-height:20px;font-weight:400;display:block;}
+.bannercontact:hover a i {color:#9f5936;border:#9f5936 solid 2px;}
+.bannercontact:hover span a {color:#9f5936;}
+.bannercontact:hover span .number a {color:#9f5936;}
+
+/* header end*/
+
+/*about us start*/
+.about-us{display:inline-block;width:100%;margin-top:60px;}
+.about-area{display:inline-block;width:100%;}
+.about-left{float:left;width:51%;}
+.heading{display:block;text-align:center;}
+.heading h2{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.aboutdetails{display:inline-block;width:100%;text-align:center;margin:10px 0 0 0;padding: 0 35px;}
+.aboutdetails p.firstp{color:#5a5858;font-size:18px;line-height:30px;font-weight:400;margin:10px 0 30px;}
+.aboutdetails p.firstp:last-child{margin:10px 0 25px;}
+.anchor{display:inline-block;width:100%;text-align:center;margin-top:15px;}
+.anchor a{text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:30px;line-height:34px;font-weight:400;box-shadow:8px 8px 0 rgba(188, 138, 128, 1);}
+.anchor:hover a{color:#fff;box-shadow:none;}
+
+.aboutright{float:right;width:45%;}
+.aboutright img{display:inline-block;width:100%;}
+
+/*about us end*/
+
+/* food menu start*/
+.foodmenu{margin:60px 0;background-image:url(../images/menubackground.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:724px;display: inline-block;    width: 100%;}
+.foodlistarea{display:inline-block;width:100%;margin:50px 0 50px 0; }
+.menuheading h2{color:#fff;}
+.fooddetailsarea{display:inline-block;width:100%;margin-top:15px;}
+.foodmenulist{float:left;width:49%;margin:20px 0;}
+.menuimage{float:left;width:18%;}
+.menuimage img{width:100%;}
+.menudetails{float:left;width:82%;    padding: 15px 0px 15px 23px;;}
+.dishname{color:#fff;display:block;font-size:24px;line-height:30px; font-weight:400;   margin-bottom: 25px;}
+.cost i{color:#fff;font-size:36px;}
+.cost{font-size:36px;margin-left: 26px;}
+.dishdetail{color:#d1caca;font-size:18px;line-height:22px;font-weight:400;}
+.foodmenulist:nth-child(2n){float:right;}
+/* food menu end*/
+
+/* booking table start*/
+.bookingtable{display:inline-block;width:100%;}
+.bookingarea{display:inline-block;width:100%;}
+.reservation{display:inline-block;width:100%;    margin-top: 35px;}
+.formside{float:left;width:48%;}
+.formheading{display:inline-block;width:100%;text-align:center;}
+.formheading h3{font-size:24px;color:#000;font-weight:400;line-height:30px;}
+.form-fields{display:inline-block;width:100%;}
+.form-fields form{margin:20px 60px 40px;}
+.No-Of-Persons{display:inline-block;width:100%;}
+.No-Of-Persons input[type=text], select {  width: 100%;  padding: 15px 20px; margin: 11px 0; display: inline-block;border:#9f5936 solid 3px;font-size:14px;line-height:18px;font-weight:400;color:#5a5858; font-style:italic;border-radius: 4px;  box-sizing: border-box;}
+.bookingimageside{float:right;width:50%;background-image:url(../images/formimage.png);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:614px;}
+.opendays{display:inline-block;width:67.5%;text-align:center;}
+.opendays ul{display:inline-block;width:100%;margin:60px 0;padding:79px 0;}
+.opendays ul li{display:inline-block;width:100%;margin: 0;padding:0 40px;}
+.day{color:#fff;font-size:22px;line-height:32px;font-weight:400;float: left;text-align:left;    width: 42%;}
+.time{color:#fff;font-size:22px;line-height:32px;font-weight:400;text-align:right;float:right;width:50%;}
+.bookingno{float:right;width: 75%;}
+.bookingno ul{    text-align: center;    margin: 20px;}
+.bookingno ul li{color:#fff;font-size:22px;line-height:34px;font-weight:400;}
+.submit{display:block;text-align:center;}
+.submit input[type=submit]{border:none;text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:30px;line-height:34px;font-weight:400;box-shadow:8px 8px 0 rgba(188, 138, 128, 1);cursor:pointer;}
+.submit:hover input{color:#fff;box-shadow:none;}
+/* booking table end*/
+
+/* testimonails start*/
+.testimonials{background-image:url(../images/testimonial-banner.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:499px;margin:60px 0 0 0;display: inline-block;    width: 100%;}
+.testimonialheading h2{color:#fff;}
+.testimonialarea{display:inline-block;width:100%;margin:60px 0;}
+.comment{display:inline-block;width:100%;text-align:center;margin:20px 0;}
+.quotes{display:inline-block;width:100%;margin-top:5px;}
+.quotes i{color:#754127;font-size:60px;line-height:70px;}
+.commentarea{display:inline-block;text-align:center;margin-top:30px;width:60%;}
+.commentarea p{color:#fff;font-weight:400;font-size:20px;line-height:28px;}
+.commentarea span{display:block;color:#fff;font-weight:400;font-size:20px;line-height:28px;padding-top:40px;}
+/* testimonails end*/
+
+/* blog start*/
+.blog{display:inline-block;width:100%;margin:60px 0 40px;}
+.blogarea{display:inline-block;width:100%;}
+.writtenblog{display:inline-block;width:100%;margin:40px 0;}
+.firstblog{display:inline-block;width:32.5%;text-align:center;}
+.firstblog:nth-child(2n){margin:0 13px;}
+.blogimage{display:inline-block;width:100%;}
+.blogimage img{width:100%;}
+.blogdetail{    padding-top: 15px;display:inline-block;width:100%;}
+.blogdetail h4{font-size:30px;line-height:36px;color:#000;font-weight:400;}
+.blogdetail p{font-size:14px;line-height:20px;color:#5a5858;font-weight:400;    margin: 16px 0;padding: 0 28px;}
+.blogdetail a{font-size:14px;line-height:18px;color:#c3754d;font-weight:400;text-decoration:none; display: block;}
+.blogdetail a:hover{color:#000;}
+/* blog end*/
+
+/* gallery start*/
+.gallery{display:inline-block;width:100%;}
+.galleryarea{display:inline-block;width:100%;}
+.picarea{display:inline-block;width:100%;margin:40px 0;}
+.gfirst{float:left;width: 23.1%;    margin-right: 38px;}
+.gfirst:last-child{margin:0;}
+.gfirst img{width:100%;}
+/* gallery end*/
+
+/*footer star*/
+footer{display:inline-block;width:100%;background:#170f0b;}
+.footerarea{display:inline-block;width:100%;margin:45px 0 15px;padding:40px 0;}
+.logo-copyright{float:left;width:17%;margin-right:20px;}
+.footerlogo{float:left;width:60%;}
+.footerlogo img{width:100%;}
+.copyright{float:left;width:100%;    margin-top: 40px;}
+.copyrighttwo{display:none;}
+.copyright small{color:#fff;font-size:14px;line-height:22px;font-weight:400;}
+.soacialmedia{float:left;width:60%;text-align:center;margin:65px 0;}
+.soacialmedia ul{display:inline-block;width:100%;}
+.soacialmedia ul li{display:inline-block;width:10%;margin-right:30px;}
+.soacialmedia ul li a{text-decoration:none;display: inline-block;}
+.soacialmedia ul li i{text-align:center;color:#fff;font-size:48px;line-height:54px;background:#9f5936;padding: 4px 20px;box-shadow:4px 10px 0 rgba(118, 67, 41, .7);}
+.soacialmedia ul li.twitter i{padding: 4px 13px;}
+.soacialmedia ul li.insta i{padding: 4px 13px;}
+.soacialmedia ul li.tumblr i{padding: 4px 20px;margin:0;}
+.soacialmedia a:hover i{box-shadow:none;color:#000;}
+.getintouch{float:right;width:20%;text-align:right;margin: 60px 0;}
+.getintouch strong{color:#fff;font-size:30px;line-height:36px;font-weight:400;margin-bottom:6px;display:block;}
+.getintouch span{color:#fff;font-size:14px;line-height:26px;font-weight:400;}
+/*footer end*/
+
+
+@media screen and (max-width:1520px){
+	.container {    width: 100%; padding:0 30px;}
+	.menu-list{width:78%;}
+		.menu-list nav ul li a{margin-right: 15px; padding: 38px 5px;font-size: 18px;    line-height: 22px;}
+		.menu-list nav ul li .pagelist{top: 120px;    width: 150px;}
+.menu-list nav ul li a:after{width:100px;height:100px;}
+.menu-list nav ul li{width: 135px;}
+.wcr ul li a i{    font-size: 20px;    line-height: 26px;}
+.wcr ul li a span{    font-size: 16px;    line-height: 20px;}
+.wcr ul li a{margin: 0 14px;}
+
+	.wcr{padding:65px 0;    width: 22%;}
+	.menu-list nav ul li a i {    font-size: 18px;}
+	.bannermap i {font-size: 20px;    line-height: 24px;}
+	.bannercontact i i {font-size: 20px;    line-height: 24px;}
+	.bannermap address {font-size: 14px;    line-height: 22px;}
+	.bannercontact span {font-size: 14px;    line-height: 22px;}
+	
+	.companylogo .logoimage{width:35%;}
+	.bannerdetails h1 {    font-size: 36px;    line-height: 42px;}
+	.bannerdetails span {    font-size: 20px;    line-height: 26px;}
+	.prev, .next{width:8%;}
+	.blogdetail h4 {    font-size: 22px;    line-height: 30px;}
+	.firstblog{width:32.2%;}
+	.gfirst{margin-right: 28px;}
+	
+	.opendays{width:73.4%;}
+	.day{    font-size: 18px;width:46%;   line-height: 24px}
+	.time{    font-size: 18px;line-height: 24px}
+	.bookingno ul{margin:40px 0;}
+	.bookingno ul li{    font-size: 18px;line-height: 24px}
+}
+
+
+
+@media screen and (max-width:1199px){
+	.container{width:100%;padding:0 25px;}
+	.menu-list{margin: 30px 0 25px;}
+	.menu-list nav ul li{width: 110px;}
+	.menu-list nav ul li a{font-size: 14px;       margin-right: 15px; line-height: 20px;padding: 26px 8px;}
+	.menu-list nav ul li a i{font-size:13px;}
+	.menu-list nav ul li .pagelist{top: 86px;    width: 100px;}
+	.menu-list nav ul li a:after{    height: 72px;    width: 72px;}
+	.wcr{    padding: 45px 0;}
+	.bannercontact{padding-left:0;}	
+	.wcr ul li a i{   margin: 0 6px; font-size: 20px;    line-height: 26px;}
+	.wcr ul li a {margin: 0 6px; }
+	.wcr ul li a span{    font-size: 14px;    line-height: 18px;}
+	.bannermap i{font-size: 16px;    padding: 5px 10px;line-height: 18px;}
+	.bannermap address{    font-size: 12px;    line-height: 18px;}
+	.bannercontact i{font-size: 16px;    padding: 5px 8px;line-height: 18px;}
+	.bannercontact span{font-size: 14px;    line-height: 18px;}
+	.companylogo .logoimage{width: 45%;}
+	.bannerdetails{margin: 10px 0 20px 0;}
+	.bannerdetails h1{font-size: 30px;    line-height: 40px;    padding: 0 45px;    margin: 0 40px;}
+	.bannerdetails span{    font-size: 20px;    line-height: 26px;}
+	.banneranchor{margin-top:5px ;}
+	.banneranchor a{font-size: 18px;    line-height: 20px;}
+	
+	.about-us{    margin-top: 40px;}
+	.heading h2 {     font-size: 30px;    line-height: 38px;}
+	.heading img{margin-top:10px;width:60%;}
+	.aboutdetails {    padding: 0 10px;}
+	.aboutdetails p.firstp{    font-size: 14px;    line-height: 20px;margin: 5px 0 10px;}
+	.anchor{margin-top:5px ;}
+	.anchor a{font-size: 18px;    line-height: 20px;}
+	.aboutright{margin-top:15px;}
+	
+	
+	.foodmenu{margin:50px 0;min-height:420px;}
+    .menuheading img {width: 30%;}
+	.menuimage{width:14%;}
+	.dishname {    font-size: 16px;      margin-bottom: 10px;  line-height: 22px;}
+	.cost {  margin:0;  font-size: 20px;}
+	.cost i {font-size: 20px;}
+	.menudetails {width:85%;}
+	.menudetails{    padding: 5px 0px 5px 10px;}
+	.dishdetail {    font-size: 14px;    line-height: 16px;}
+	
+	.bookingtable{margin: 0;}
+	.reservationheading img {    width: 30%;    margin-top: 10px;}
+	.formheading h3 {line-height:22px;    font-size: 18px;}
+	.form-fields form {    margin: 15px 40px 30px;}
+	.No-Of-Persons input[type=text], select {    width: 100%;    padding: 10px 15px;}
+	.submit input[type=submit] {font-size: 18px;    line-height: 20px;}
+	.bookingimageside{    min-height: 500px;}
+	.opendays {    width: 68.5%;}
+	.opendays ul{    margin: 45px 0;    padding: 70px 0;}
+	.opendays ul li{padding:0 6px;}
+	.day {    font-size: 17px;  width:46%;  line-height: 24px;}
+	.time {    font-size: 17px;    line-height: 24px;}
+	.bookingno ul li {    font-size: 20px;    line-height: 28px;}
+	
+	
+	.testimonials{    min-height: 374px;}
+	.testimonialarea{margin: 30px 0;}
+	.testimonialheading img {    width: 30%;    margin-top: 10px;}
+	.quotes i {font-size: 50px;    line-height: 60px;}
+	.commentarea{margin:0;    width: 75%;}
+	.commentarea  p{ font-size: 16px;    line-height: 22px;}
+	.commentarea span {padding-top:20px;}
+	
+	
+	.blog{margin:50px 0 0 0 ;}
+	.blogheading img {    width: 30%;    margin-top: 10px;}
+	.blogdetail {margin-top:10px;}
+	.firstblog{width:31%;}
+	.blogdetail h4 {    font-size: 18px;    line-height: 24px;}
+	.blogdetail p{    margin: 9px 0;    padding: 0 5px;}
+	
+	.galleryheading img {    width: 30%;    margin-top: 10px;}
+	.picarea{margin-top:20px;}
+	.gfirst{    margin-right: 20px;}
+	
+	
+	.soacialmedia ul li i{    font-size: 36px;    line-height: 46px;}
+}
+
+@media screen and (max-width:991px){
+	
+	.mySlides {    width: 55%;}
+	.company-logo-area{margin-top:14px;}
+	.bannerdetails h1 {    font-size: 22px;    line-height: 30px}
+	.bannerdetails span {    font-size: 14px;    line-height: 20px;}
+	.bannercontact{width:17%;}
+	.bannercontact span {    font-size: 12px;    line-height: 15px;}
+	.bannermap {    width: 24%;}
+	.menu-list nav ul li {    width: 85px;}
+	.menu-list {    margin: 20px 0 0 0;width: 79%;}
+	.menu-list nav ul li a {    margin-right: -16px;padding: 26px 0px; font-size: 13px; line-height: 18px;}
+	.wcr ul li a i { font-size: 14px;    line-height: 20px;}
+	.wcr ul li a span {font-size: 12px;}
+	.wcr ul li a { margin:0 3px 0 0 ;}
+	.wcr {width:20%;padding: 37px 0;}
+	.menu-list nav ul li .pagelist{top: 85px;    width: 70px;}
+	.menu-list nav ul li a:after {    height: 70px;    width: 70px;}
+	.banneranchor a {  box-shadow: 5px 5px 0 rgb(84 45 27 / 60%);  font-size: 15px;    line-height: 18px;}
+	
+	.about-left {    width: 55%;}
+	 
+	.aboutright {    margin-top: 40px;}
+	.aboutdetails p.firstp {    font-size: 12px;    line-height: 16px;}
+.anchor a{font-size: 15px;    line-height: 18px;box-shadow: 5px 5px 0 rgb(188 138 128);}
+	
+	.foodmenulist {    width: 50%;    margin: 15px 0;}
+	.menuimage {    width: 12%;}
+	.dishname {    margin-bottom: 5px;font-size: 13px;    line-height: 20px;}
+	.cost {font-size: 14px;}
+	.cost i{font-size: 14px;}
+	.dishdetail {    font-size: 12px;    line-height: 14px;}
+	
+	.formheading h3 {    line-height: 20px;    font-size: 16px;}
+	.formside { width: 320px;}
+	.form-fields form {    margin: 15px 25px 30px;}
+	.No-Of-Persons input[type=text], select{ padding: 7px 10px;   font-size: 12px;    line-height: 14px;}
+	.bookingimageside {    min-width: 365px; min-height: 397px;}
+	.opendays {    width: 68.5%;}
+	.opendays ul {    margin: 45px 0 0px}
+	.opendays ul li {    padding: 0 5px 0 5px;}
+	.day {        width: 47.5%;font-size: 14px;    line-height: 18px;}
+	.time {  width:45.5%; font-size: 14px;    line-height: 18px;}
+	.bookingno ul li {    font-size: 16px;    line-height: 22px;}
+	.submit input[type=submit]{font-size: 15px;    line-height: 18px;box-shadow: 5px 5px 0 rgb(188 138 128);}
+	.submit:hover input{color:#fff;box-shadow:none;}
+	
+	.blogdetail{padding-top:0;}
+	.blogdetail h4 {    font-size: 14px;    line-height: 20px;}
+	.firstblog {    width: 31.5%;}
+	.blogdetail p {    font-size: 12px;    line-height: 16px;}
+	
+	.gfirst {    width: 22.8%;}
+	
+	.footerlogo {    width: 50%;}
+	.logo-copyright {    width: 20%;margin:0;}
+	.getintouch span {font-size: 12px;    line-height: 20px;}
+	.getintouch strong {font-size: 20px;    line-height: 28px;}
+	.copyright{margin-top: 20px;}
+	.copyright small { font-size: 12px;    line-height: 18px;}
+	.soacialmedia{width:58%;} 
+	.soacialmedia ul li i{font-size: 19px;    line-height: 26px;}
+}
+
+@media screen and (max-width:767px){
+	.wcr {padding: 5px 0;    width: 100%}
+	.wcr ul  {padding: 10px 0;    width: 100%}
+	.wcr ul li {    width: 33%;    float: left;}
+.wcr ul li a {margin: 0 ;}
+	.menu-wcr:after{display:none;}
+	.bannerdetails h1 {    font-size: 20px;    line-height: 27px;}
+	.bannerdetails span {    font-size: 12px;    line-height: 17px;}
+	.bannercontact a i{font-size: 13px;    padding: 3px 7px;    line-height: 15px;}
+	.bannermap i{font-size: 13px;    padding: 5px 7px;    line-height: 15px;}
+	.bannermap {    width: 100%;}
+	.mySlides {    width: 100%;}
+	.bannercontact {    width: 100%;}
+	.bannerheight	{width:100%;height:200px;}
+	
+	.about-us{margin-top:15px;}
+	.heading h2 {    font-size: 22px;    line-height: 26px;}
+	.aboutdetails p.firstp {    font-size: 13px;    line-height: 16px;}
+	.about-left {    width: 100%;	}
+	.aboutright {    width: 100%;	}
+	.aboutdetails{padding:0;}
+	
+	.foodmenu {    margin: 20px 0;}
+	.foodmenulist{width:100%;border-bottom:solid 2px #9f5936;    margin: 0 0 35px 0;}
+	.dishname{margin-top:10px;font-size:14px;}
+	.foodlistarea{    margin: 20px 0 10px 0;}
+	.menuimage {    width: 100%;}
+	.menudetails {padding:0 5px ; width: 100%;}
+	.comment{margin:10px 0 ;}
+	
+	.reservation{margin-top:15px;}
+	.formheading h3{font-size:12px;}
+	.form-fields form{margin:10px 0;}
+		.formside{width:100%;}
+	.bookingimageside{width:100%;    margin-top: 30px;}
+	.opendays { width:70%}
+	
+
+	
+	
+	.testimonials { margin:20px 0 0 0 ;   min-height: 357px;}
+	.testimonialarea {    margin: 30px 0 10px;}
+	.quotes i {    font-size: 30px;    line-height: 36px;}
+	.commentarea p {    font-size: 13px;    line-height: 20px;}
+	.commentarea span{font-size: 16px;    line-height: 22px;}
+	.commentarea{width:100%;}
+	
+	.blog {    margin: 20px 0 0 0;}
+	.blogdetail h4 {    font-size: 15px;	}
+	.blogdetail p {    font-size: 14px;padding:0;    line-height: 18px;}
+	.firstblog {    margin-top:15px;width: 100%;border-bottom:#9f5936 solid 2px;margin-bottom:20px;}
+	.writtenblog{margin: 15px 0;}
+	.firstblog:nth-child(2n) {  margin: 15px 0 20px 0  ;}
+	
+	.picarea{margin:20px 0;}
+	.gfirst {width:100%;margin-bottom:15px;}
+	
+	
+	.footerarea {padding:0;margin:20px 0 15px;}
+	.getintouch strong {   font-size: 13px;    line-height: 17px;}
+	.soacialmedia ul li i {box-shadow: 3px 4px 0 rgb(118 67 41 / 70%); padding: 3px 13px;font-size: 12px;    line-height: 16px;	}
+	.soacialmedia ul li.twitter i {    padding: 3px 11px;}
+.soacialmedia ul li.insta i{padding: 3px 11px;}
+.soacialmedia ul li.tumblr i{padding: 3px 12px;margin:0;}
+.soacialmedia {width: 46%;}
+.soacialmedia ul li {margin:0 0 20px 0 ;display: inline-block;    width: 100%;      text-align: center;}
+.getintouch {width: 23%;}
+.logo-copyright {width: 50%;}
+.footerlogo {width: 100%;}
+.copyright{display:none;}
+.copyrighttwo {    display: inline-block;    width: 100%;    margin-top: 10px;text-align: center;}
+.copyrighttwo small{color:#fff;font-size:13px;line-height:18px;font-weight:400;}
+.soacialmedia {    width: 50%;      margin:  0;float:right;text-align: left;}
+.getintouch {    margin: 10px 0;    width: 100%;    display: inline-block;text-align: center;}
+
+
+}

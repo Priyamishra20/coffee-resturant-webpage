@@ -1,0 +1,372 @@
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana.eot');
+	src: url('../font/fontie-package/Verdana.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana.woff') format('woff'),
+		url('../font/fontie-package/Verdana.svg#Verdana') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {  font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold.eot');
+	src: url('../font/fontie-package/Verdana Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold.svg#Verdana Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Italic.eot');
+	src: url('../font/fontie-package/Verdana Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Italic.svg#Verdana Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold Italic.eot');
+	src: url('../font/fontie-package/Verdana Bold Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold Italic.svg#Verdana Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;box-sizing: border-box;}
+body {	line-height: 1;font-family:'Verdana';}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* header start*/
+header{display:inline-block;width:100%;}
+.bannerimage{display:inline-block;width:100%;position:relative;}
+.bannerimage img{width:100%;}
+.bannertext{position:absolute ;   top: 0;    left: 0;    right: 0;}
+.container{width:1500px;margin:0 auto;}
+.menu-wcr{display:inline-block;width:100%;position:relative;padding:0;}
+.menu-wcr{display:inline-block;width:100%;position:relative;padding:0;}
+.menu-wcr:after{content:"";border-bottom:#d1cfcf solid 1px;position:absolute;left:60px;right:60px;bottom:0;}
+.menu-list{float:left;width:78%;margin:35px 0 45px;}
+.menu-list nav{display:inline-block;width:100%;}
+.menu-list nav ul{display:inline-block;width:100%;}
+.menu-list nav ul li{display:inline-block;text-align:center;position: relative;width:190px;}
+.menu-list nav ul li a{    display: block;    padding: 50px 10px;text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;    position: relative;    z-index: 9;    text-align: center;    margin-right: 31px;}
+.menu-list nav ul li a i{font-size:26px;}	
+.menu-list nav ul li a:after {    content: "";    position: absolute;    left: 15px;    right: 0;    top: 0;    bottom: 0;    background: #9f5936;    z-index: -1;    transform: rotate(45deg);    height: 130px;    width: 130px;	display:none;}
+.menu-list nav ul li a:hover:after{display:block;}
+.menu-list nav ul li .pagelist li a:hover:after {display: none;}
+.menu-list nav ul li .pagelist{display:none;background:#9f5936; position: absolute;    top: 155px;    left: 31px;     width: 200px;    z-index: 1;}
+.menu-list nav ul li .pagelist li a {    padding: 20px 10px;text-align: left;}
+.menu-list nav ul li:hover .pagelist{display:block;}
+.menu-list nav ul li .pagelist li a:hover{color:#000;}
+.pagelist li a{display: block;    text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;}
+
+.wcr{float:right;width:20%;padding:70px 0;}
+.wcr ul{display:inline-block;width:100%;}
+.wcr ul li{display:inline-block;text-align:center;}
+.wcr ul li a{text-decoration:none;display:inline-block;margin: 0 16px;}
+.wcr ul li a:hover i{color:#9f5936;}
+.wcr ul li a:hover span{color:#9f5936;}
+.wcr ul li a i{color:#fff;display:block;font-size:34px;line-height:38px;}
+.wcr ul li a span{color:#fff;display:block;font-size:20px;line-height:24px;font-weight:400;}
+
+.offerheading{display:inline-block;width:100%;text-align:center;margin:60px 0;}/*banner heading*/
+.offerheading h2{color:#fff;font-size:60px;line-height:75px;font-weight:400;}
+
+/* header end*/
+
+/* cold beverages start*/
+.coldbeverages{margin:60px 0 0 0;display: inline-block;    width: 100%;}
+.coldbeveragesarea{display: inline-block;    width: 100%;}
+.heading{display:block;text-align:center;}
+.heading h2{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.beveragesarea{display:inline-block;width:100%;margin:20px 0 0 0; }
+.fooddetailsarea{display:inline-block;width:100%;margin-top:15px;}
+.beverageslist{float:left;width:49%;margin:20px 0;}
+.coldimage{float:left;width:18%;}
+.coldimage img{width:100%;}
+.coldmenudetails{float:left;width:82%;    padding: 15px 0px 15px 23px;;}
+.colddishname{color:#000;display:block;font-size:24px;line-height:30px; font-weight:400;   margin-bottom: 25px;}
+.coldcost i{color:#000;font-size:36px;}
+.coldcost{font-size:36px;margin-left: 26px;}
+.colddishdetail{color:#000;font-size:18px;line-height:22px;font-weight:400;}
+.beverageslist:nth-child(2n){float:right;}
+/* cold beverages end*/
+
+/* food start*/
+.food{margin:60px 0 0 0;display: inline-block;    width: 100%;}
+.foodarea{display: inline-block;    width: 100%;}
+.heading{display:block;text-align:center;}
+.heading h2{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.foodcornerarea{display:inline-block;width:100%;margin:20px 0 0 0; }
+.foodcornerarea{display:inline-block;width:100%;margin-top:15px;}
+.foodcornerlist{float:left;width:49%;margin:20px 0;}
+.foodimage{float:left;width:18%;}
+.foodimage img{width:100%;}
+.foodcorneretails{float:left;width:82%;    padding: 15px 0px 15px 23px;;}
+.foodname{color:#000;display:block;font-size:24px;line-height:30px; font-weight:400;   margin-bottom: 25px;}
+.foodcost i{color:#000;font-size:36px;}
+.foodcost{    float: right;font-size:36px;margin-left: 20px;}
+.fooddetail{color:#000;font-size:18px;line-height:22px;font-weight:400;}
+.foodcornerlist:nth-child(2n){float:right;}
+/* foodend*/
+
+
+
+/* hot beverages start*/
+.foodmenu{margin:40px 0;background-image:url(../images/menubackground.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:724px;display: inline-block;    width: 100%;}
+.heading{display:block;text-align:center;}
+.heading h2{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.foodlistarea{display:inline-block;width:100%;margin:50px 0 50px 0; }
+.hotbeverages h2{color:#fff;}
+.fooddetailsarea{display:inline-block;width:100%;margin-top:15px;}
+.foodmenulist{float:left;width:49%;margin:20px 0;}
+.menuimage{float:left;width:18%;}
+.menuimage img{width:100%;}
+.menudetails{float:left;width:82%;    padding: 15px 0px 15px 23px;;}
+.dishname{color:#fff;display:block;font-size:24px;line-height:30px; font-weight:400;   margin-bottom: 25px;}
+.cost i{color:#fff;font-size:36px;}
+.cost{font-size:36px;margin-left: 26px;}
+.dishdetail{color:#d1caca;font-size:18px;line-height:22px;font-weight:400;}
+.foodmenulist:nth-child(2n){float:right;}
+/* hot beverages end*/
+
+/* other drink start*/
+.drink{margin-bottom:75px;}
+
+.menudownload{display:inline-block;width:100%;text-align:center;margin-top:15px;}
+.menudownload a{text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:22px;line-height:30px;font-weight:400;box-shadow:8px 8px 0 rgba(188, 138, 114, 1);}
+.menudownload:hover a{color:#fff;box-shadow:none;}
+/* other drink end*/
+
+
+/*footer star*/
+footer{display:inline-block;width:100%;background:#170f0b;}
+.footerarea{display:inline-block;width:100%;margin:45px 0 15px;padding:40px 0;}
+.logo-copyright{float:left;width:17%;margin-right:20px;}
+.footerlogo{float:left;width:60%;}
+.footerlogo img{width:100%;}
+.copyright{float:left;width:100%;    margin-top: 40px;}
+.copyright small{color:#fff;font-size:14px;line-height:22px;font-weight:400;}
+.soacialmedia{float:left;width:60%;text-align:center;margin:65px 0;}
+.soacialmedia ul{display:inline-block;width:100%;}
+.soacialmedia ul li{display:inline-block;width:10%;margin-right:30px;}
+.soacialmedia ul li a{text-decoration:none;display: inline-block;}
+.soacialmedia ul li i{text-align:center;color:#fff;font-size:48px;line-height:54px;background:#9f5936;padding: 4px 20px;box-shadow:4px 10px 0 rgba(118, 67, 41, .7);}
+.soacialmedia ul li.twitter i{padding: 4px 13px;}
+.soacialmedia ul li.insta i{padding: 4px 13px;}
+.soacialmedia ul li.tumblr i{padding: 4px 20px;margin:0;}
+.copyrighttwo{display:none;}
+.soacialmedia a:hover i{box-shadow:none;color:#000;}
+.getintouch{float:right;width:20%;text-align:right;margin: 60px 0;}
+.getintouch strong{color:#fff;font-size:30px;line-height:36px;font-weight:400;margin-bottom:6px;display:block;}
+.getintouch span{color:#fff;font-size:14px;line-height:26px;font-weight:400;}
+/*footer end*/
+
+@media screen and (max-width:1520px){
+	.container {    width: 100%; padding:0 30px;}
+	.menu-list{width:78%;}
+	.menu-list nav ul li a{margin-right: 15px; padding: 38px 5px;font-size: 18px;    line-height: 22px;}
+	.menu-list nav ul li a:after{width:100px;height:100px;}
+	.menu-list nav ul li{width: 135px;}
+	.wcr ul li a i{    font-size: 20px;    line-height: 26px;}
+	.wcr ul li a span{    font-size: 16px;    line-height: 20px;}
+	.wcr ul li a{margin: 0 14px;}
+		.menu-list nav ul li .pagelist{top: 120px;    width: 150px;}
+	.wcr{padding:65px 0;    width: 22%;}
+	.menu-list nav ul li a i {    font-size: 18px;}
+	
+	.coldbeverages {    margin: 45px 0 0 0;	}
+	.coldimage {    width: 17%;}
+	.colddishname{    margin-bottom: 15px; font-size: 20px;    line-height: 26px;}
+	.coldmenudetails{padding: 15px 0px 15px 10px;width: 83%;}
+	.coldcost {margin-left:0;font-size: 24px;}
+	.coldcost i{font-size: 24px;}
+	.colddishdetail {    font-size: 16px;    line-height: 20px;}
+
+	.food{    margin: 45px 0 0 0;	}
+	.foodimage {     width: 17%;}
+	.foodcorneretails {width: 83%;    padding: 15px 0px 15px 5px;}
+	.foodname{margin-bottom: 15px; font-size: 20px;    line-height: 26px;}
+	.foodcost{margin-left:0;font-size: 24px;}
+	.foodcost i{font-size: 24px;}
+	
+	.foodmenu{min-height:631px;    margin: 40px 0 20px;}
+	.menuimage{width: 17%;}
+	.menudetails{width: 83%;    padding: 15px 0px 15px 5px;}
+	.dishname{margin-bottom: 15px; font-size: 20px;    line-height: 26px;}
+	.cost{margin-left:0;font-size: 24px;}
+	.cost i{font-size: 24px;}
+	
+	.drink{    margin:30px 0 50px;}
+}
+
+
+@media screen and (max-width:1199px){
+	.menu-list{margin: 30px 0 25px;}
+	.menu-list nav ul li{width: 110px;}
+	.menu-list nav ul li a{font-size: 14px;       margin-right: 15px; line-height: 20px;padding: 26px 8px;}
+	.menu-list nav ul li a i{font-size:13px;}
+	.menu-list nav ul li a:after{    height: 72px;    width: 72px;}
+	.menu-list nav ul li .pagelist{top: 86px;    width: 100px;}
+	.wcr{    padding: 45px 0;}
+	.bannercontact{padding-left:0;}	
+	.wcr ul li a i{   margin: 0 6px; font-size: 20px;    line-height: 26px;}
+	.wcr ul li a {margin: 0 6px; }
+	.wcr ul li a span{    font-size: 14px;    line-height: 18px;}
+	.offerheading h2 {font-size: 30px;    line-height: 40px;    }
+	.offerheading {    margin: 35px 0;}
+	.bannerimage img {    height: 250px;}
+
+	
+	.coldbeverages{margin:40px 0;}
+    .heading img {width: 30%;}
+	.coldimage{width:14%;}
+	.colddishname {    font-size: 16px;      margin-bottom: 10px;  line-height: 22px;}
+	.coldcost {  margin:0;  font-size: 20px;}
+	.coldcost i {font-size: 20px;}
+	.coldmenudetails {width:85%;}
+	.coldmenudetails{    padding: 5px 0px 5px 10px;}
+	.colddishdetail {    font-size: 14px;    line-height: 16px;}	
+
+	.food{margin:10px 0;}
+    .heading img {width: 30%;}
+	.foodimage{width:14%;}
+	.foodname {    font-size: 16px;      margin-bottom: 10px;  line-height: 22px;}
+	.foodcost {  margin:0;  font-size: 20px;}
+	.foodcost i {font-size: 20px;}
+	.fooddetails {width:85%;}
+	.fooddetails{    padding: 5px 0px 5px 10px;}
+	.fooddetail {    font-size: 14px;    line-height: 16px;}	
+	
+	.foodmenu{margin:30px 0;min-height:420px;}/*hot beverages*/
+    .menuheading img {width: 30%;}
+	.menuimage{width:14%;}
+	.dishname {    font-size: 16px;      margin-bottom: 10px;  line-height: 22px;}
+	.cost {  margin:0;  font-size: 20px;}
+	.cost i {font-size: 20px;}
+	.menudetails {width:85%;}
+	.menudetails{    padding: 5px 0px 5px 10px;}
+	.dishdetail {    font-size: 14px;    line-height: 16px;}
+	
+	.drink{margin:20px 0 60px;}
+	
+	
+	.soacialmedia ul li i{    font-size: 36px;    line-height: 46px;}
+	
+
+}
+
+
+@media screen and (max-width:991px){
+
+.menu-list nav ul li {    width: 85px;}
+	.menu-list {    margin: 20px 0 0 0;width: 79%;}
+	.menu-list nav ul li a {    margin-right: -16px;padding: 26px 0px; font-size: 13px; line-height: 18px;}
+	.wcr ul li a i { font-size: 14px;    line-height: 20px;}
+	.wcr ul li a span {font-size: 12px;}
+	.wcr ul li a { margin:0 3px 0 0 ;}
+	.wcr {width:20%;padding: 37px 0;}
+	.menu-list nav ul li a:after {    height: 70px;    width: 70px;}
+	.menu-list nav ul li .pagelist{top: 85px;    width: 70px;}
+
+		.coldbeverages{margin:30px 0 20px 0;}
+		.heading h2 {    font-size: 34px;		line-height: 40px;}
+    .heading img {width: 30%;}
+	.coldimage{width:12%;}
+	.colddishname {   margin-bottom: 5px;font-size: 12px;    line-height: 18px;}
+	.coldcost {  margin:0;  font-size: 12px;}
+	.coldcost i {font-size: 12px;}
+	.beverageslist{width:48.8%;}
+	.coldmenudetails {width:85%; padding: 5px 0px 5px 10px;}
+	.colddishdetail {    font-size: 12px;    line-height: 14px;}
+
+	.food{margin: 0 0 20px 0;}
+	.foodname {    font-size: 12px;      margin-bottom: 10px;  line-height: 18px;}
+	.foodcost {  margin:0;  font-size: 12px;}
+	.foodcost i {font-size: 12px;}
+	.fooddetails {width:85%;}
+	.foodcorneretails{padding:0 0 0 15px;}
+	.fooddetails{    padding: 5px 0px 5px 10px;}
+	.fooddetail {    font-size: 12px;    line-height: 14px;}	
+	
+
+	.foodmenulist {    width: 50%;    margin: 15px 0;}/*hot beverages*/
+	.foodmenu {min-height: 400px;margin:10px 0  20px 0}
+	.menuimage {    width: 12%;}
+	.dishname {    margin-bottom: 5px;font-size: 13px;    line-height: 20px;}
+	.cost {font-size: 12px;}
+	.cost i{font-size: 12px;}
+	.foodlistarea{margin:30px 0}
+	.dishdetail {    font-size: 12px;    line-height: 14px;}
+	
+	.drink{margin-bottom:50px;}
+	.menudownload a {    font-size: 14px;    line-height: 22px;}
+
+	.footerlogo {    width: 50%;}
+	.logo-copyright {    width: 20%;margin:0;}
+	.getintouch span {font-size: 12px;    line-height: 20px;}
+	.getintouch strong {font-size: 20px;    line-height: 28px;}
+	.copyright{margin-top: 20px;}
+	.copyright small { font-size: 12px;    line-height: 18px;}
+	.soacialmedia{width:58%;} 
+	.soacialmedia ul li i{font-size: 19px;    line-height: 26px;}
+	
+}
+
+
+@media screen and (max-width:767px){
+	.heading h2 {    font-size: 22px;line-height: 26px;}
+.heading img{width:60%;}
+	.wcr {padding: 5px 0;    width: 100%}
+	.wcr ul  {padding: 10px 0;    width: 100%}
+	.wcr ul li {    width: 33%;    float: left;}
+.wcr ul li a {margin: 0 ;}
+.ownerword{margin-top:25px;}
+.beverageslist{margin:15px 0;width: 100%;    text-align: left;}
+.coldimage {width: 15%;}
+.coldmenudetails {width: 70%;padding: 5px 0px 5px 25px;}
+
+.foodcornerlist{margin:15px 0;width: 100%;    text-align: left;}
+.foodcorneretails{width:70%;padding: 5px 0px 5px 25px;}
+
+.foodmenulist{margin:15px 0;width: 100%;    text-align: left;}
+.menudetails{width:75%;padding: 5px 0px 5px 25px;}
+	
+.footerarea {padding:0;margin:20px 0 15px;}
+	.getintouch strong {   font-size: 13px;    line-height: 17px;}
+	.soacialmedia ul li i {box-shadow: 3px 4px 0 rgb(118 67 41 / 70%); padding: 3px 13px;font-size: 12px;    line-height: 16px;	}
+	.soacialmedia ul li.twitter i {    padding: 3px 11px;}
+.soacialmedia ul li.insta i{padding: 3px 11px;}
+.soacialmedia ul li.tumblr i{padding: 3px 12px;margin:0;}
+.soacialmedia {width: 46%;}
+.soacialmedia ul li {margin:0 0 20px 0 ;display: inline-block;    width: 100%;      text-align: center;}
+.getintouch {width: 23%;}
+.logo-copyright {width: 50%;}
+.footerlogo {width: 100%;}
+.copyright{display:none;}
+.copyrighttwo {    display: inline-block;    width: 100%;    margin-top: 10px;text-align: center;}
+.copyrighttwo small{color:#fff;font-size:13px;line-height:18px;font-weight:400;}
+.soacialmedia {    width: 50%;      margin:  0;float:right;text-align: left;}
+.getintouch {    margin: 10px 0;    width: 100%;    display: inline-block;text-align: center;}
+

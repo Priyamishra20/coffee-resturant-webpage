@@ -1,0 +1,333 @@
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana.eot');
+	src: url('../font/fontie-package/Verdana.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana.woff') format('woff'),
+		url('../font/fontie-package/Verdana.svg#Verdana') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {  font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold.eot');
+	src: url('../font/fontie-package/Verdana Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold.svg#Verdana Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Italic.eot');
+	src: url('../font/fontie-package/Verdana Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Italic.svg#Verdana Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+@font-face {    font-family:'Verdana';
+    src: url('../font/fontie-package/Verdana Bold Italic.eot');
+	src: url('../font/fontie-package/Verdana Bold Italic.eot?#iefix') format('embedded-opentype'),
+		url('../font/fontie-package/Verdana Bold Italic.woff2') format('woff2'),
+		url('../font/fontie-package/Verdana Bold Italic.woff') format('woff'),
+		url('../font/fontie-package/Verdana Bold Italic.svg#Verdana Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;}
+
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;box-sizing: border-box;}
+body {	line-height: 1;font-family:'Verdana';}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* header start*/
+header{display:inline-block;width:100%;}
+.bannerimage{display:inline-block;width:100%;position:relative;}
+.bannerimage img{width:100%;}
+.bannertext{position:absolute ;   top: 0;    left: 0;    right: 0;}
+.container{width:1500px;margin:0 auto;}
+.menu-wcr{display:inline-block;width:100%;position:relative;padding:0;}
+.menu-wcr:after{content:"";border-bottom:#d1cfcf solid 1px;position:absolute;left:60px;right:60px;bottom:0;}
+.menu-list{float:left;width:78%;margin:35px 0 45px;}
+.menu-list nav{display:inline-block;width:100%;}
+.menu-list nav ul{display:inline-block;width:100%;}
+.menu-list nav ul li{display:inline-block;text-align:center;position: relative;width:190px;}
+.menu-list nav ul li a{    display: block;    padding: 50px 10px;text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;    position: relative;    z-index: 9;    text-align: center;    margin-right: 31px;}
+.menu-list nav ul li a i{font-size:26px;}	
+.menu-list nav ul li a:after {    content: "";    position: absolute;    left: 15px;    right: 0;    top: 0;    bottom: 0;    background: #9f5936;    z-index: -1;    transform: rotate(45deg);    height: 130px;    width: 130px;	display:none;}
+.menu-list nav ul li a:hover:after{display:block;}
+.menu-list nav ul li .pagelist li a:hover:after {display: none;}
+	
+.menu-list nav ul li .pagelist{display:none;background:#9f5936; position: absolute;    top: 155px;    left: 31px;     width: 200px;    z-index: 1;}
+.menu-list nav ul li .pagelist li a {    padding: 20px 10px;text-align: left;}
+.menu-list nav ul li:hover .pagelist{display:block;}
+.menu-list nav ul li .pagelist li a:hover{color:#000;}
+.pagelist li a{display: block;    text-decoration:none;color:#fff;font-size:24px;line-height:26px;font-weight:400;}
+
+.wcr{float:right;width:20%;padding:70px 0;}
+.wcr ul{display:inline-block;width:100%;}
+.wcr ul li{display:inline-block;text-align:center;}
+.wcr ul li a{text-decoration:none;display:inline-block;margin: 0 16px;}
+.wcr ul li a:hover i{color:#9f5936;}
+.wcr ul li a:hover span{color:#9f5936;}
+.wcr ul li a i{color:#fff;display:block;font-size:34px;line-height:38px;}
+.wcr ul li a span{color:#fff;display:block;font-size:20px;line-height:24px;font-weight:400;}
+
+.offerheading{display:inline-block;width:100%;text-align:center;margin:60px 0;}/*banner heading*/
+.offerheading h2{color:#fff;font-size:60px;line-height:75px;font-weight:400;}
+
+/* header end*/
+
+/*offer area start*/
+.offers{display:inline-block;width:100%;margin:60px 0 30px;}
+.offerarea{display:inline-block;width:100%;}
+.firstoffer{float:left;width:33.3%;text-align:center;margin-bottom:40px;}
+.firstoffer .mapicon{display:block;}
+.mapicon i{color:#000;font-size:26px;line-height:28px;border:#000 solid 2px;border-radius:50%;padding:6px 7px;text-align:center;}
+.mapdetails{display:block;}
+.mapdetails span{color:#000;font-size:24px;line-height:30px;font-weight:400;margin:15px 0;display:block;}
+.mapdetails address{color:#9c9c9c;font-size:18px;line-height:24px;font-weight:400;margin: 5px 50px;padding: 0 38px;}
+/*offer area end*/
+
+/* discount start*/
+.discount{background-image:url(../images/discountbanner.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:300px;display:block;}
+.discount-area{display:inline-block;width:100%;margin:50px 0;padding:0 65px;}
+.firstdiscount{float:left;width:35%;text-align:center;}
+.firstdiscount span{display:inline-block;width:100%;font-size:36px;line-height:48px;color:#fff;font-weight:400;}
+.coffee{display:inline-block;width:100%;margin:20px 0;}
+.anchor{float:left;width:17%;text-align:center;margin:80px 60px 0;}
+.anchor a{text-decoration:none;text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:30px;line-height:34px;font-weight:400;box-shadow:4px 10px 0 rgba(118, 67, 41, .7);}
+.anchor:hover a{color:#fff;box-shadow:none;}
+.seconddiscount{width:35%;}
+/* discount end*/
+
+/* booking table start*/
+.bookingtable{display:inline-block;width:100%;margin:50px 0 60px;}
+.bookingarea{display:inline-block;width:100%;}
+.heading{display:block;text-align:center;}
+.heading h3{display:block;font-size:48px;line-height:54px;color:#000;font-weight:400;font-style:italic;}
+.heading img{    max-width: 100%;    display: inline-block;margin: 15px 0 0 0;}
+.reservation{display:inline-block;width:100%;    margin-top: 35px;}
+.formside{float:left;width:48%;}
+.formheading{display:inline-block;width:100%;text-align:center;}
+.formheading h3{font-size:24px;color:#000;font-weight:400;line-height:30px;}
+.form-fields{display:inline-block;width:100%;}
+.form-fields form{margin:20px 60px 40px;}
+.No-Of-Persons{display:inline-block;width:100%;}
+.No-Of-Persons input[type=text], select {  width: 100%;  padding: 15px 20px; margin: 11px 0; display: inline-block;border:#9f5936 solid 3px;font-size:14px;line-height:18px;font-weight:400;color:#5a5858; font-style:italic;border-radius: 4px;  box-sizing: border-box;}
+.bookingimageside{float:right;width:50%;background-image:url(../images/formimage.png);background:repeat:no-repeat;background-position:center;background-size:cover;min-height:614px;}
+.opendays{display:inline-block;width:67.5%;text-align:center;}
+.opendays ul{display:inline-block;width:100%;margin:60px 0;padding:79px 0;}
+.opendays ul li{display:inline-block;width:100%;margin: 0;padding:0 40px;}
+.day{color:#fff;font-size:22px;line-height:32px;font-weight:400;float: left;text-align:left;    width: 42%;}
+.time{color:#fff;font-size:22px;line-height:32px;font-weight:400;text-align:right;float:right;width:50%;}
+.bookingno{float:right;width: 75%;}
+.bookingno ul{    text-align: center;    margin: 20px;}
+.bookingno ul li{color:#fff;font-size:22px;line-height:34px;font-weight:400;}
+.submit{display:block;text-align:center;}
+.submit input[type=submit]{border:none;text-decoration:none;color:#000;background:#9f5936;padding:10px 15px;font-size:30px;line-height:34px;font-weight:400;box-shadow:8px 8px 0 rgba(188, 138, 128, 1);cursor:pointer;}
+.submit:hover input{color:#fff;box-shadow:none;}
+/* booking table end*/
+
+
+/*footer star*/
+footer{display:inline-block;width:100%;background:#170f0b;}
+.footerarea{display:inline-block;width:100%;margin:45px 0 15px;padding:40px 0;}
+.logo-copyright{float:left;width:17%;margin-right:20px;}
+.footerlogo{float:left;width:60%;}
+.footerlogo img{width:100%;}
+.copyright{float:left;width:100%;    margin-top: 40px;}
+.copyright small{color:#fff;font-size:14px;line-height:22px;font-weight:400;}
+.soacialmedia{float:left;width:60%;text-align:center;margin:65px 0;}
+.soacialmedia ul{display:inline-block;width:100%;}
+.soacialmedia ul li{display:inline-block;width:10%;margin-right:30px;}
+.soacialmedia ul li a{text-decoration:none;display: inline-block;}
+.soacialmedia ul li i{text-align:center;color:#fff;font-size:48px;line-height:54px;background:#9f5936;padding: 4px 20px;box-shadow:4px 10px 0 rgba(118, 67, 41, .7);}
+.soacialmedia ul li.twitter i{padding: 4px 13px;}
+.soacialmedia ul li.insta i{padding: 4px 13px;}
+.copyrighttwo{display:none;}
+.soacialmedia ul li.tumblr i{padding: 4px 20px;margin:0;}
+.soacialmedia a:hover i{box-shadow:none;color:#000;}
+.getintouch{float:right;width:20%;text-align:right;margin: 60px 0;}
+.getintouch strong{color:#fff;font-size:30px;line-height:36px;font-weight:400;margin-bottom:6px;display:block;}
+.getintouch span{color:#fff;font-size:14px;line-height:26px;font-weight:400;}
+/*footer end*/
+
+
+@media screen and (max-width:1520px){
+	.container {    width: 100%; padding:0 30px;}
+	.menu-list{width:78%;}
+	.menu-list nav ul li a{margin-right: 15px; padding: 38px 5px;font-size: 18px;    line-height: 22px;}
+	.menu-list nav ul li a:after{width:100px;height:100px;}
+	.menu-list nav ul li{width: 135px;}
+		.menu-list nav ul li .pagelist{top: 120px;    width: 150px;}
+	.wcr ul li a i{    font-size: 20px;    line-height: 26px;}
+	.wcr ul li a span{    font-size: 16px;    line-height: 20px;}
+	.wcr ul li a{margin: 0 14px;}
+	.wcr{padding:65px 0;    width: 22%;}
+	.menu-list nav ul li a i {    font-size: 18px;}
+	
+	.mapdetails address {padding:0;}
+	
+	.discount{min-height:244px;}
+	.firstdiscount span{    font-size: 28px;    line-height: 34px;}
+	.anchor{width:30%;margin:70px 0 0 0 ;}
+	
+	.opendays{width:73.4%;}
+	.day{    font-size: 18px;width:46%;   line-height: 24px}
+	.time{    font-size: 18px;line-height: 24px}
+	.bookingno ul{margin:40px 0;}
+	.bookingno ul li{    font-size: 18px;line-height: 24px}
+
+@media screen and (max-width:1199px){
+	.menu-list{margin: 30px 0 25px;}
+	.menu-list nav ul li{width: 110px;}
+	.menu-list nav ul li .pagelist{top: 86px;    width: 100px;}
+	.menu-list nav ul li a{font-size: 14px;       margin-right: 15px; line-height: 20px;padding: 26px 8px;}
+	.menu-list nav ul li a i{font-size:13px;}
+	.menu-list nav ul li a:after{    height: 72px;    width: 72px;}
+	.wcr{    padding: 45px 0;}
+	.bannercontact{padding-left:0;}	
+	.wcr ul li a i{   margin: 0 6px; font-size: 20px;    line-height: 26px;}
+	.wcr ul li a {margin: 0 6px; }
+	.wcr ul li a span{    font-size: 14px;    line-height: 18px;}
+	.offerheading h2 {font-size: 30px;    line-height: 40px;    }
+	.offerheading {    margin: 35px 0;}
+	.bannerimage img {    height: 250px;}
+	
+	.offers{margin-top:50px;}
+	.mapicon i {font-size: 16px;    padding: 4px 6px;line-height: 18px;}
+	.mapdetails span{    font-size: 18px;    line-height: 24px;    margin: 10px 0;}
+	.mapdetails address{margin:0;padding:0 15px;}
+	
+	.discount{    min-height: 207px;}
+		.firstdiscount span{    font-size: 23px;    line-height: 30px;}
+		.anchor {width:20%;    margin: 40px 30px 0;}
+		.anchor a{font-size: 18px;    line-height: 20px;}
+	.discount-area{    padding: 0 30px;}
+	.seconddiscount{float:right;}
+	
+	
+	.bookingtable{margin: 40px 0;}
+		.reservationheading h3{     font-size: 30px;    line-height: 38px;}
+	.reservationheading img {    width: 30%;    margin-top: 10px;}
+	.formheading h3 {line-height:22px;    font-size: 18px;}
+	.form-fields form {    margin: 15px 40px 30px;}
+	.No-Of-Persons input[type=text], select {    width: 100%;    padding: 10px 15px;}
+	.submit input[type=submit] {font-size: 18px;    line-height: 20px;}
+	.bookingimageside{    min-height: 500px;}
+	.opendays {    width: 73.5%;}
+	.opendays ul{    margin: 45px 0;    padding: 70px 0;}
+	.opendays ul li{padding:0 6px;}
+	.day {    font-size: 18px;  width:46%;  line-height: 24px;}
+	.time {    font-size: 18px;    line-height: 24px;}
+	.bookingno ul li {    font-size: 20px;    line-height: 28px;}
+	
+	.soacialmedia ul li i{    font-size: 36px;    line-height: 46px;}
+	
+
+}
+
+
+@media screen and (max-width:991px){
+
+	.menu-list nav ul li {    width: 85px;}
+	.menu-list {    margin: 20px 0 0 0;width: 79%;}
+	.menu-list nav ul li a {    margin-right: -16px;padding: 26px 0px; font-size: 13px; line-height: 18px;}
+	.wcr ul li a i { font-size: 14px;    line-height: 20px;}
+	.wcr ul li a span {font-size: 12px;}
+	.wcr ul li a { margin:0 3px 0 0 ;}
+	.wcr {width:20%;padding: 37px 0;}
+	.menu-list nav ul li a:after {    height: 70px;    width: 70px;}
+	.menu-list nav ul li .pagelist{top: 85px;    width: 70px;}
+
+	.mapicon i {    font-size: 14px;    padding: 3px 5px;}
+	.mapdetails span {    font-size: 16px;    line-height: 20px;}
+	   .mapdetails address {padding: 0 8px;font-size: 13px;line-height: 18px;}
+	   .firstdiscount span {    font-size: 16px;	   line-height: 22px;}
+	   .discount-area{margin:49px 0;}
+	   .anchor {    width: 30%;	   margin: 40px 0 0 0;}
+
+
+		.bookingtable{margin: 40px 0;}
+		.reservationheading h3{     font-size: 30px;    line-height: 38px;}
+		.formheading h3 {    line-height: 20px;    font-size: 16px;}
+	.formside { width: 320px;}
+	.form-fields form {    margin: 15px 25px 30px;}
+	.No-Of-Persons input[type=text], select{ padding: 7px 10px;   font-size: 12px;    line-height: 14px;}
+	.bookingimageside {    min-width: 365px; min-height: 397px;}
+	.opendays {    width: 68.5%;}
+	.opendays ul {    margin: 45px 0 0px}
+	.opendays ul li {    padding: 0 5px 0 5px;}
+	.day {        width: 47.5%;font-size: 14px;    line-height: 18px;}
+	.time {  width:45.5%; font-size: 14px;    line-height: 18px;}
+	.bookingno ul li {    font-size: 16px;    line-height: 22px;}
+	
+
+	.footerlogo {    width: 50%;}
+	.logo-copyright {    width: 20%;margin:0;}
+	.getintouch span {font-size: 12px;    line-height: 20px;}
+	.getintouch strong {font-size: 20px;    line-height: 28px;}
+	.copyright{margin-top: 20px;}
+	.copyright small { font-size: 12px;    line-height: 18px;}
+	.soacialmedia{width:58%;} 
+	.soacialmedia ul li i{font-size: 19px;    line-height: 26px;}
+}
+
+@media screen and (max-width:767px){
+.heading h2 {    font-size: 22px;line-height: 26px;}
+.heading img{width:60%;}	
+	.wcr {padding: 5px 0;    width: 100%}
+	.wcr ul  {padding: 10px 0;    width: 100%}
+	.wcr ul li {    width: 33%;    float: left;}
+.wcr ul li a {margin: 0 ;}
+.ownerword{margin-top:25px;}
+.offers {margin-top: 30px;}
+
+.firstoffer {width: 100%;   margin-bottom: 20px;}
+.mapdetails span {font-size: 20px;}
+   .mapdetails address {font-size: 12px;line-height: 16px;}
+
+.discount {min-height: 148px;}
+.anchor a {    font-size: 16px;line-height: 18px;}
+	.discount-area{padding:0;margin:25px 0;}
+	.anchor {    width: 39%;	}
+	.firstdiscount { width: 30%;}
+	.firstdiscount span {    font-size: 12px;    line-height: 14px;}
+
+
+		.formside{width:100%;}
+	.bookingimageside{width:100%;    margin-top: 30px;}
+	.opendays {    width: 69.5%;}
+
+.footerarea {padding:0;margin:20px 0 15px;}
+	.getintouch strong {   font-size: 13px;    line-height: 17px;}
+	.soacialmedia ul li i {box-shadow: 3px 4px 0 rgb(118 67 41 / 70%); padding: 3px 13px;font-size: 12px;    line-height: 16px;	}
+	.soacialmedia ul li.twitter i {    padding: 3px 11px;}
+.soacialmedia ul li.insta i{padding: 3px 11px;}
+.soacialmedia ul li.tumblr i{padding: 3px 12px;margin:0;}
+.soacialmedia {width: 46%;}
+.soacialmedia ul li {margin:0 0 20px 0 ;display: inline-block;    width: 100%;      text-align: center;}
+.getintouch {width: 23%;}
+.logo-copyright {width: 50%;}
+.footerlogo {width: 100%;}
+.copyright{display:none;}
+.copyrighttwo {    display: inline-block;    width: 100%;    margin-top: 10px;text-align: center;}
+.copyrighttwo small{color:#fff;font-size:13px;line-height:18px;font-weight:400;}
+.soacialmedia {    width: 50%;      margin:  0;float:right;text-align: left;}
+.getintouch {    margin: 10px 0;    width: 100%;    display: inline-block;text-align: center;}
+
